@@ -1,0 +1,16 @@
+{
+    "name": "user_1/test_spl",
+    "authors": [
+        {
+            "name": "pipjivko",
+            "email": "pipjivko@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload":{
+        "classmap":["Fruits\\Carrot.php"]
+    }
+    
+}
