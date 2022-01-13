@@ -11,10 +11,13 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        require __DIR__.'\vendor/autoload.php';
-$carrot = new Fruits\Fruits\Carrot();die;
-        $prune = new \Fruits\Vegetables\BGfruids\Prune();
-//$r = new \Fruits\Vegetables\PineApple();
+        require __DIR__ . '\vendor/autoload.php';
+        require_once 'vendor/composer/autoload_classmap.php';
+        
+        $carrot = new Fruits\Fruits\Carrot();
+        $prune = new Fruits\Vegetables\BGfruits\Prune();
+        $r = new Fruits\Vegetables\PineApple();
+
         $fruit = new Fruits\Fruits\Pinapple();
         $carrot = $fruit->makeCarrot();
         $prune->makePineapple($carrot);

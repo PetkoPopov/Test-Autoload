@@ -1,5 +1,5 @@
 <?php
-namespace Fruits\Vegetables\BGfruids;
+namespace Fruits\Vegetables\BGfruits;
 
 use PineApple\PineApple as P;
 use Fruits\Fruits\Carrot as Carrot;

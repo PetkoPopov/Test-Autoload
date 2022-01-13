@@ -9,8 +9,22 @@
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
+    "_autoload":{
+        "__тук описвам пътища , не namespace-ве__":"така се коментира",
+        "classmap":["Fruits\\Carrot.php","Fruits\\Vegetables\\pineApple.php","Fruits\\Vegetables\\BGfruits\\prune.php",
+        "Fruits\\pineApple.php"]
+    },
+    "__autoload":{
+        "psr-4":{
+        "Fruits\\Fruits\\":"",
+            "Test-Spl\\":"",
+            "__":""
+        
+        }
+    },
     "autoload":{
-        "classmap":["Fruits\\Carrot.php"]
+        "classmap":[]
     }
+    
     
 }
